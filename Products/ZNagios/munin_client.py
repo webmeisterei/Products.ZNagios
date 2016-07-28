@@ -41,7 +41,7 @@ class GraphBase(object):
         request = urllib2.Request(url)
         if AUTHORIZATION:
             request.add_header('Authorization', 'Basic %s' %
-                               base64.encodestring(AUTHORIZATION))
+                               base64.b64encode(AUTHORIZATION))
         result = urllib2.urlopen(request).readlines()
         self.data = {}
         for line in result:

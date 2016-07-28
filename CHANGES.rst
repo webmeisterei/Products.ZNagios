@@ -4,7 +4,8 @@ Changelog
 0.7.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix muning_client with Patched version of Python2.7.
+  [pcdummy]
 
 
 0.7.1 (2015-08-11)
